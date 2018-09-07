@@ -1,0 +1,35 @@
+{
+  "name": "env-reconstruction",
+  "version": "1.0.0",
+  "description": "SFM tests with openCv and JS",
+  "main": "es6-init.js",
+  "scripts": {
+    "start": "NODE_ENV=development electron ./src/es6-init.js"
+  },
+  "author": "lucascassian",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-modules-require-hook": "^4.2.3",
+    "electron-compile": "^6.4.3",
+    "opencv4nodejs": "^4.7.2",
+    "postcss": "^4.1.16",
+    "postcss-modules-extract-imports": "^1.1.0",
+    "postcss-modules-local-by-default": "^1.2.0",
+    "postcss-modules-scope": "^1.1.0",
+    "python-shell": "^0.5.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-react-css-modules": "^3.4.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017-node7": "^0.5.2",
+    "babel-preset-react-app": "^3.1.2",
+    "electron-compilers": "^5.9.0",
+    "electron-prebuilt-compile": "^2.0.7"
+  }
+}

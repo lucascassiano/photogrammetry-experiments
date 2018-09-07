@@ -1,0 +1,14 @@
+{
+  "application/javascript": {
+    "presets": [
+      "env",
+      "react",
+      "react-app"
+    ],
+    "plugins": [
+      "react-hot-loader/babel",
+      "transform-async-to-generator",
+      "react-css-modules"
+    ]
+  }
+}
